@@ -92,12 +92,3 @@ npm run preview
 
 Допускается использование online-инструментов, например, BEM XJST (https://bem.github.io/bem-xjst/) для json-данных. Допускается написание своего БЭМ парсера с использованием любых рассмотренных в курсе технологий (https://pastebin.com/eZmmwDt6).
 ```
-
-## Публикация через SSH
-
-```sh
-git remote set-url origin git@github.com:thesmol/seo-trekking.git
-git push origin main:main main:gh-pages
-```
-
-GitHub Pages публикует ветку `gh-pages`.
