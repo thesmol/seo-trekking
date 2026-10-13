@@ -1,18 +1,18 @@
 # seo-trekking — задания №4, №9, №10, №11, №12
 
-Практические работы по дисциплине «SEO — оптимизация портальных решений».
+Здесь собраны работы по дисциплине «SEO — оптимизация портальных решений».
 
 В задании №9 этот репозиторий содержит часть Schema.org и Open Graph. Сравнение производительности находится в [seo-performance](https://github.com/thesmol/seo-performance).
 
 ## Публикации и исходники
 
-- №4: [GitHub Pages](https://thesmol.github.io/seo-trekking/task-04/), снимок этапа в `task-04/`.
-- №9: [GitHub Pages](https://thesmol.github.io/seo-trekking/task-09/), снимок этапа в `task-09/`.
-- №10: [GitHub Pages](https://thesmol.github.io/seo-trekking/task-10/), снимок этапа в `task-10/`.
-- №11: [GitHub Pages](https://thesmol.github.io/seo-trekking/task-11/), снимок этапа в `task-11/`.
-- №12: [GitHub Pages](https://thesmol.github.io/seo-trekking/task-12/), снимок этапа в `task-12/`.
+- №4: [GitHub Pages](https://thesmol.github.io/seo-trekking/task-04/), код в `task-04/`.
+- №9: [GitHub Pages](https://thesmol.github.io/seo-trekking/task-09/), код в `task-09/`.
+- №10: [GitHub Pages](https://thesmol.github.io/seo-trekking/task-10/), код в `task-10/`.
+- №11: [GitHub Pages](https://thesmol.github.io/seo-trekking/task-11/), код в `task-11/`.
+- №12: [GitHub Pages](https://thesmol.github.io/seo-trekking/task-12/), код в `task-12/`.
 
-Каждая папка этапа содержит свои ресурсы и не требует файлов последующих заданий.
+В каждой папке находится отдельное задание со всеми нужными файлами.
 
 ## Локальный запуск
 
@@ -30,11 +30,11 @@ npm run build
 npm run preview
 ```
 
-Нужен Node.js 20.19+ или 22.12+. Сборка Vite сохраняет исходные HTML, CSS, JavaScript, XML и медиа без изменения: это важно для сравнения размеров jQuery, AMP-валидации и самостоятельности этапов. Для замеров используйте `preview`, потому что `dev` добавляет служебный клиент Vite.
+Для запуска нужен Node.js 20.19+ или 22.12+. При сборке файлы страницы копируются без изменений. Это сохраняет AMP-разметку и позволяет сравнивать исходные файлы в заданиях на производительность. Замеры лучше запускать через `preview`: в режиме `dev` Vite добавляет на страницу свой служебный скрипт.
 
 ## Условия заданий
 
-Ниже приведён полный текст соответствующих заданий из предоставленной постановки. Пути `addons/...` относятся к исходному учебному комплекту.
+Ниже — условия заданий. Файлы из `addons/...` находятся в исходном учебном комплекте.
 
 ### Задание №4
 
