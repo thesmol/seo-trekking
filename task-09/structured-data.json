@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://thesmol.github.io/seo-trekking/task-09/#website",
+      "name": "Trekking",
+      "url": "https://thesmol.github.io/seo-trekking/task-09/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://thesmol.github.io/seo-trekking/task-09/#page",
+      "url": "https://thesmol.github.io/seo-trekking/task-09/",
+      "name": "Trekking \u2014 clothing for the outdoors",
+      "isPartOf": {
+        "@id": "https://thesmol.github.io/seo-trekking/task-09/#website"
+      },
+      "mainEntity": {
+        "@id": "https://thesmol.github.io/seo-trekking/task-09/#products"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://thesmol.github.io/seo-trekking/task-09/#products",
+      "name": "Trekking collection",
+      "numberOfItems": 6,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "T-shirt",
+          "url": "https://thesmol.github.io/seo-trekking/task-09/#products"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Pants FORCLAZ",
+          "url": "https://thesmol.github.io/seo-trekking/task-09/#products"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Backpack",
+          "url": "https://thesmol.github.io/seo-trekking/task-09/#products"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Jacket",
+          "url": "https://thesmol.github.io/seo-trekking/task-09/#products"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Trekking shoes",
+          "url": "https://thesmol.github.io/seo-trekking/task-09/#products"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "T-shirt",
+          "url": "https://thesmol.github.io/seo-trekking/task-09/#products"
+        }
+      ]
+    }
+  ]
+}

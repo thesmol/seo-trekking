@@ -1,0 +1,859 @@
+{
+  "tag": "html",
+  "attrs": {
+    "lang": "en"
+  },
+  "content": [
+    {
+      "tag": "head",
+      "content": [
+        {
+          "tag": "meta",
+          "attrs": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "viewport",
+            "content": "width=device-width,initial-scale=1"
+          }
+        },
+        {
+          "tag": "title",
+          "content": [
+            "Trekking — clothing for the outdoors"
+          ]
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "description",
+            "content": "Comfortable outdoor clothing, walking shoes and equipment. Explore the Trekking collection inspired by the mountains."
+          }
+        },
+        {
+          "tag": "meta",
+          "attrs": {
+            "name": "keywords",
+            "content": "trekking, outdoor, clothing, hiking, backpack"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "rel": "stylesheet",
+            "href": "style.css"
+          }
+        },
+        {
+          "tag": "link",
+          "attrs": {
+            "rel": "preload",
+            "as": "image",
+            "href": "assets/hero-mountains.webp"
+          }
+        }
+      ]
+    },
+    {
+      "tag": "body",
+      "content": [
+        {
+          "tag": "section",
+          "block": "hero",
+          "attrs": {
+            "id": "home"
+          },
+          "content": [
+            {
+              "tag": "header",
+              "block": "header",
+              "content": [
+                {
+                  "tag": "a",
+                  "block": "header",
+                  "elem": "brand",
+                  "attrs": {
+                    "href": "#home",
+                    "aria-label": "Trekking home"
+                  },
+                  "content": [
+                    {
+                      "tag": "img",
+                      "attrs": {
+                        "src": "assets/logo-boot.webp",
+                        "width": "53",
+                        "height": "40",
+                        "alt": "Trekking"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "nav",
+                  "block": "header",
+                  "elem": "navigation",
+                  "attrs": {
+                    "aria-label": "Main navigation"
+                  },
+                  "content": [
+                    {
+                      "tag": "a",
+                      "attrs": {
+                        "href": "#home"
+                      },
+                      "content": [
+                        "Home"
+                      ]
+                    },
+                    {
+                      "tag": "a",
+                      "attrs": {
+                        "href": "#products"
+                      },
+                      "content": [
+                        "Products"
+                      ]
+                    },
+                    {
+                      "tag": "a",
+                      "attrs": {
+                        "href": "#products",
+                        "aria-label": "Browse equipment"
+                      },
+                      "content": [
+                        "▰"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "block": "hero",
+              "elem": "copy",
+              "content": [
+                {
+                  "tag": "h1",
+                  "content": [
+                    "Our clothing, your comfort"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "content": [
+                    "Take the path beyond the everyday.",
+                    {
+                      "tag": "br"
+                    },
+                    "Thoughtful essentials for mountain mornings,",
+                    {
+                      "tag": "br"
+                    },
+                    "long walks and new discoveries."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "a",
+              "block": "hero",
+              "elem": "down",
+              "attrs": {
+                "href": "#products",
+                "aria-label": "View products"
+              },
+              "content": [
+                "⌄"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "main",
+          "content": [
+            {
+              "tag": "form",
+              "block": "filter",
+              "attrs": {
+                "id": "products"
+              },
+              "content": [
+                {
+                  "tag": "div",
+                  "block": "filter",
+                  "elem": "options",
+                  "content": [
+                    {
+                      "tag": "label",
+                      "content": [
+                        {
+                          "tag": "input",
+                          "attrs": {
+                            "type": "checkbox",
+                            "name": "men",
+                            "checked": ""
+                          }
+                        },
+                        " MEN"
+                      ]
+                    },
+                    {
+                      "tag": "label",
+                      "content": [
+                        {
+                          "tag": "input",
+                          "attrs": {
+                            "type": "checkbox",
+                            "name": "women",
+                            "checked": ""
+                          }
+                        },
+                        " WOMEN"
+                      ]
+                    },
+                    {
+                      "tag": "label",
+                      "content": [
+                        {
+                          "tag": "input",
+                          "attrs": {
+                            "type": "checkbox",
+                            "name": "children"
+                          }
+                        },
+                        " CHILDREN"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "button",
+                  "block": "button",
+                  "attrs": {
+                    "type": "reset"
+                  },
+                  "content": [
+                    "See all products"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "block": "catalog",
+              "content": [
+                {
+                  "tag": "section",
+                  "block": "collection",
+                  "mix": [
+                    "collection--men"
+                  ],
+                  "content": [
+                    {
+                      "tag": "h2",
+                      "block": "collection",
+                      "elem": "heading",
+                      "content": [
+                        "Men"
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "block": "collection",
+                      "elem": "status",
+                      "content": [
+                        "01 / 01   ‹ ›"
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "block": "collection",
+                      "elem": "products",
+                      "content": [
+                        {
+                          "tag": "article",
+                          "block": "product",
+                          "content": [
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "top",
+                              "content": [
+                                {
+                                  "tag": "span",
+                                  "content": [
+                                    "SIZE ⌄"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "attrs": {
+                                    "aria-label": "Available colours",
+                                    "role": "img"
+                                  },
+                                  "content": [
+                                    "● ● ●"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "image",
+                              "content": [
+                                {
+                                  "tag": "img",
+                                  "attrs": {
+                                    "src": "assets/men-tshirt.webp",
+                                    "width": "146",
+                                    "height": "189",
+                                    "alt": "T-shirt",
+                                    "loading": "lazy"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "bottom",
+                              "content": [
+                                {
+                                  "tag": "h3",
+                                  "content": [
+                                    "T-shirt"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "block": "product",
+                                  "elem": "price",
+                                  "content": [
+                                    "5,00€"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "article",
+                          "block": "product",
+                          "content": [
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "top",
+                              "content": [
+                                {
+                                  "tag": "span",
+                                  "content": [
+                                    "SIZE ⌄"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "attrs": {
+                                    "aria-label": "Available colours",
+                                    "role": "img"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "image",
+                              "content": [
+                                {
+                                  "tag": "img",
+                                  "attrs": {
+                                    "src": "assets/men-pants.webp",
+                                    "width": "116",
+                                    "height": "232",
+                                    "alt": "Pants FORCLAZ",
+                                    "loading": "lazy"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "bottom",
+                              "content": [
+                                {
+                                  "tag": "h3",
+                                  "content": [
+                                    "Pants FORCLAZ"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "block": "product",
+                                  "elem": "price",
+                                  "content": [
+                                    "30,00€"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "article",
+                          "block": "product",
+                          "content": [
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "top",
+                              "content": [
+                                {
+                                  "tag": "span",
+                                  "content": [
+                                    "10 LITRI"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "attrs": {
+                                    "aria-label": "Available colours",
+                                    "role": "img"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "image",
+                              "content": [
+                                {
+                                  "tag": "img",
+                                  "attrs": {
+                                    "src": "assets/backpack.webp",
+                                    "width": "143",
+                                    "height": "211",
+                                    "alt": "Backpack",
+                                    "loading": "lazy"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "bottom",
+                              "content": [
+                                {
+                                  "tag": "h3",
+                                  "content": [
+                                    "Backpack"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "block": "product",
+                                  "elem": "price",
+                                  "content": [
+                                    "60,00€"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "section",
+                  "block": "collection",
+                  "mix": [
+                    "collection--women"
+                  ],
+                  "content": [
+                    {
+                      "tag": "h2",
+                      "block": "collection",
+                      "elem": "heading",
+                      "content": [
+                        "Women"
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "block": "collection",
+                      "elem": "status",
+                      "content": [
+                        "01 / 01   ‹ ›"
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "block": "collection",
+                      "elem": "products",
+                      "content": [
+                        {
+                          "tag": "article",
+                          "block": "product",
+                          "content": [
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "top",
+                              "content": [
+                                {
+                                  "tag": "span",
+                                  "content": [
+                                    "SIZE ⌄"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "attrs": {
+                                    "aria-label": "Available colours",
+                                    "role": "img"
+                                  },
+                                  "content": [
+                                    "● ● ●"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "image",
+                              "content": [
+                                {
+                                  "tag": "img",
+                                  "attrs": {
+                                    "src": "assets/women-jacket.webp",
+                                    "width": "197",
+                                    "height": "216",
+                                    "alt": "Jacket",
+                                    "loading": "lazy"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "bottom",
+                              "content": [
+                                {
+                                  "tag": "h3",
+                                  "content": [
+                                    "Jacket"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "block": "product",
+                                  "elem": "price",
+                                  "content": [
+                                    "60,00€"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "article",
+                          "block": "product",
+                          "content": [
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "top",
+                              "content": [
+                                {
+                                  "tag": "span",
+                                  "content": [
+                                    "SIZE ⌄"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "attrs": {
+                                    "aria-label": "Available colours",
+                                    "role": "img"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "image",
+                              "content": [
+                                {
+                                  "tag": "img",
+                                  "attrs": {
+                                    "src": "assets/trekking-shoes.webp",
+                                    "width": "174",
+                                    "height": "135",
+                                    "alt": "Trekking shoes",
+                                    "loading": "lazy"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "bottom",
+                              "content": [
+                                {
+                                  "tag": "h3",
+                                  "content": [
+                                    "Trekking shoes"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "block": "product",
+                                  "elem": "price",
+                                  "content": [
+                                    "80,00€"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "article",
+                          "block": "product",
+                          "content": [
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "top",
+                              "content": [
+                                {
+                                  "tag": "span",
+                                  "content": [
+                                    "SIZE ⌄"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "attrs": {
+                                    "aria-label": "Available colours",
+                                    "role": "img"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "image",
+                              "content": [
+                                {
+                                  "tag": "img",
+                                  "attrs": {
+                                    "src": "assets/women-tshirt.webp",
+                                    "width": "175",
+                                    "height": "227",
+                                    "alt": "T-shirt",
+                                    "loading": "lazy"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "block": "product",
+                              "elem": "bottom",
+                              "content": [
+                                {
+                                  "tag": "h3",
+                                  "content": [
+                                    "T-shirt"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "block": "product",
+                                  "elem": "price",
+                                  "content": [
+                                    "20,00€"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attrs": {
+                    "id": "empty",
+                    "hidden": ""
+                  },
+                  "content": [
+                    "No products in the selected collection."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "section",
+              "block": "about",
+              "attrs": {
+                "id": "about"
+              },
+              "content": [
+                {
+                  "tag": "div",
+                  "block": "about",
+                  "elem": "box",
+                  "content": [
+                    {
+                      "tag": "h2",
+                      "content": [
+                        "About us"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "content": [
+                        "We believe good equipment lets you focus on the journey. Our collection brings together ",
+                        {
+                          "tag": "strong",
+                          "content": [
+                            "comfortable clothing and practical essentials"
+                          ]
+                        },
+                        " for time outside. Find your own pace, travel light and enjoy the landscape."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "block": "social",
+              "content": [
+                {
+                  "tag": "span",
+                  "attrs": {
+                    "aria-hidden": "true"
+                  },
+                  "content": [
+                    "↗"
+                  ]
+                },
+                " “Every trail begins with a first step.”"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "footer",
+          "block": "footer",
+          "content": [
+            {
+              "tag": "div",
+              "block": "footer",
+              "elem": "copy",
+              "content": [
+                {
+                  "tag": "h2",
+                  "content": [
+                    "Trekking"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "content": [
+                    "A study in outdoor comfort. Explore a small collection of clothing, footwear and equipment inspired by life in the mountains."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "block": "footer",
+              "elem": "nav",
+              "content": [
+                {
+                  "tag": "nav",
+                  "attrs": {
+                    "aria-label": "Footer"
+                  },
+                  "content": [
+                    {
+                      "tag": "a",
+                      "attrs": {
+                        "href": "#credits"
+                      },
+                      "content": [
+                        "Credits"
+                      ]
+                    },
+                    {
+                      "tag": "a",
+                      "attrs": {
+                        "href": "#about"
+                      },
+                      "content": [
+                        "About"
+                      ]
+                    },
+                    {
+                      "tag": "a",
+                      "attrs": {
+                        "href": "#products"
+                      },
+                      "content": [
+                        "Products"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "small",
+                  "attrs": {
+                    "id": "credits"
+                  },
+                  "content": [
+                    "PSD design by Gianluca Cosetta"
+                  ]
+                },
+                {
+                  "tag": "small",
+                  "content": [
+                    "Educational layout · 2026"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "script",
+          "attrs": {
+            "src": "main.js"
+          }
+        }
+      ]
+    }
+  ]
+}
